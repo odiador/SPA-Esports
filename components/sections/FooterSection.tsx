@@ -20,32 +20,31 @@ const FooterSection = () => {
         <div className="flex gap-2">
 
             <Link
-                href={"https://kick.com/cafesports-club"}
+                href={"https://kick.com/"}
                 target="_blank"
                 className="group">
                 <SiKick className="text-2xl group-hover:scale-110 transition-all" />
             </Link>
 
             <Link
-                href={"https://www.instagram.com/cafesport.club/"}
+                href={"https://www.instagram.com/"}
                 target="_blank"
                 className="group">
                 <BsInstagram className="text-2xl group-hover:scale-110 transition-all" />
             </Link>
             {/* <Link
-                href={"http://twitch.tv/cafesportsclub"}
                 target="_blank"
                 className="group">
                 <BsTwitch className="text-2xl group-hover:scale-110 transition-all" />
             </Link> */}
             <Link
-                href={"https://www.youtube.com/@cafesportsclub"}
+                href={"https://www.youtube.com/"}
                 target="_blank"
                 className="group">
                 <BsYoutube className="text-2xl group-hover:scale-110 transition-all" />
             </Link>
         </div>
-        <p className="font-questrial font-bold text-xs">© 2025 CafEsports. Todos los derechos reservados.</p>
+        <p className="font-questrial font-bold text-xs">© 2025 SPA-Esports. Todos los derechos reservados.</p>
     </section>);
 }
 export default FooterSection;

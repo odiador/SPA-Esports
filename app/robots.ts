@@ -5,9 +5,9 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        disallow: ["http://cafesports.club/"], // Bloquea HTTP
+        disallow: ["http://esports.odiador.dev/"], // Bloquea HTTP
       },
     ],
-    sitemap: "https://cafesports.club/sitemap.xml",
+    sitemap: "https://esports.odiador.dev/sitemap.xml",
   };
 }

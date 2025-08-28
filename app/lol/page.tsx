@@ -11,21 +11,21 @@ export default function Lol() {
             <Image
                 className="h-fit"
                 src={"/lol/winners08apr.jpg"}
-                alt={"Calendario del Bombo A del Torneo de CafEsports de League of Legends"}
+                alt={"Calendario del Bombo A del Torneo de SPA-Esports de League of Legends"}
                 width={400}
                 height={100}
             />
             <Image
                 className="h-fit"
                 src={"/calendarioalol.webp"}
-                alt={"Calendario del Bombo A del Torneo de CafEsports de League of Legends"}
+                alt={"Calendario del Bombo A del Torneo de SPA-Esports de League of Legends"}
                 width={400}
                 height={100}
             />
             <Image
                 className="h-fit"
                 src={"/calendarioblol.webp"}
-                alt={"Calendario del Bombo B del Torneo de CafEsports de League of Legends"}
+                alt={"Calendario del Bombo B del Torneo de SPA-Esports de League of Legends"}
                 width={400}
                 height={100}
             />

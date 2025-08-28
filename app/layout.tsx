@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Redirect from "@/components/Redirect";
 import FooterSection from "@/components/sections/FooterSection";
 import Cursor from "@/components/Cursor";
 import Navigation from "@/components/sections/Navigation";
@@ -19,20 +18,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cafesports",
+  title: "SPA-Esports",
   description: "Hecha por Odiador",
-  keywords: ["Esports", "Café", "cafesports.club", "odiador.dev"],
+  keywords: ["Esports", "SPA", "cafesports.club", "odiador.dev"],
   openGraph: {
-    title: "Cafesports",
+    title: "SPA-Esports",
     description: "Hecha por Odiador",
-    url: "https://cafesports.club",
-    siteName: "cafesports.club",
+    url: "https://esports.odiador.dev",
+    siteName: "esports.odiador.dev",
     images: [
       {
-        url: "https://cafesports.club/logo.png",
+        url: "https://esports.odiador.dev/logo.png",
         width: 325,
         height: 325,
-        alt: "cafesports.club - Cafesports",
+        alt: "esports.odiador.dev - SPA-Esports",
       },
     ],
     locale: "es_CO",
@@ -54,8 +53,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         <Analytics />
-        <Redirect />
-        <h1 className="hidden">Cafesports</h1>
+        <h1 className="hidden">SPA-Esports</h1>
         <div className="flex flex-col justify-between min-h-screen">
           <Navigation />
           <HeroSection/>

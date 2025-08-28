@@ -13,7 +13,7 @@ export default function VotacionesSection() {
             <h1>Estadísticas</h1>
             <p className="text-xl text-center font-questrial mt-2">
                 Aquí podrás ver las estadísticas de las votaciones realizadas para elegir el juego del segundo torneo de
-                <strong className="text-[#cc86df] font-normal"> CafeSports</strong> en la <strong className="text-teal-200 font-normal">Universidad del Quindío</strong>.
+                <strong className="text-[#cc86df] font-normal"> SPA-Esports</strong> en la <strong className="text-teal-200 font-normal">Universidad del Quindío</strong>.
                 Próximamente se anunciarán más novedades sobre el evento.
             </p>
 

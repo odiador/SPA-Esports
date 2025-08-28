@@ -22,7 +22,7 @@ const YouTubeEmbed = () => {
             <iframe
                 className="size-full"
                 onLoad={() => setShow(false)}
-                src="https://www.youtube.com/embed/live_stream?channel=https://www.youtube.com/@cafesportsclub"
+                src="https://www.youtube.com/embed/live_stream?channel=https://www.youtube.com/"
                 allowFullScreen={true}
             />
             <div className="absolute top-1/2 left-1/2 animate-spin z-[1]" style={{ display: show ? "block" : "none" }}><FaSpinner /></div>
@@ -49,7 +49,7 @@ const KickEmbed = () => {
             <iframe
                 className="size-full"
                 onLoad={() => setShow(false)}
-                src="https://player.kick.com/cafesports-club?autoplay=true"
+                src="https://player.kick.com/?autoplay=true"
                 allowFullScreen={true}
             />
             <div className="absolute top-1/2 left-1/2 animate-spin z-[1]" style={{ display: show ? "block" : "none" }}><FaSpinner /></div>

@@ -52,7 +52,7 @@ const Navigation = () => {
                     </div>
 
                     <div className="flex gap-2">
-                        <Link href={"https://www.instagram.com/cafesport.club/"} target="_blank" className="group">
+                        <Link href={"https://www.instagram.com/"} target="_blank" className="group">
                             <BsInstagram className="text-2xl group-hover:scale-110 transition-all" />
                         </Link>
                     </div>
